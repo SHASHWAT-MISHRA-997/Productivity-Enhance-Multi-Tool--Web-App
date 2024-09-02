@@ -57,7 +57,7 @@ The Productivity-Enhance-Multi-Tool App is a powerful web application designed t
 
 . Resize Images: Resize images or create passport-sized photos.
 
-# Video Compressor Features: 
+# Video Features: 
 
 . Compress Videos: Reduce video file sizes.
 

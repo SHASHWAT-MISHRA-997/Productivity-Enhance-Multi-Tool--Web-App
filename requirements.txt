@@ -8,6 +8,6 @@ PyPDF2==3.0.1
 pytesseract==0.3.13
 python-docx==1.1.2
 python-pptx==1.0.2
-pdfkit 1.0.0
+pdfkit==1.0.0
 rembg==2.0.59
 reportlab==4.2.2

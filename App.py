@@ -396,10 +396,15 @@ for page_num in pages_to_process:
 PASSPORT_PHOTO_SIZE = (413, 531)  # Example size (width x height) in pixels
 
 def convert_image(image, output_format, quality=None):
+    # Convert to RGB if saving as JPEG
+    if output_format == "JPEG" and image.mode == "RGBA":
+        image = image.convert("RGB")
+    
     buffer = io.BytesIO()
     image.save(buffer, format=output_format, quality=quality)
     buffer.seek(0)
     return buffer
+
 def resize_image(image, size, resolution):
     if resolution == "Original":
         return image.resize(size, Image.ANTIALIAS)

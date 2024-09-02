@@ -1,5 +1,6 @@
 ﻿streamlit==1.38.0
 fpdf==1.7.2
+fitz==0.0.1.dev2
 moviepy==1.0.3
 numpy==2.0.2
 opencv-python==4.10.0.84

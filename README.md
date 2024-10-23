@@ -63,3 +63,17 @@ The Productivity-Enhance-Multi-Tool App is a powerful web application designed t
 . Compress Videos: Reduce video file sizes.
 
 . Trim Videos: Trim specific parts of a video.
+
+# 🤝 Contributing :
+
+I welcome contributions! If you want to help improve this project, feel free to submit a pull request or open an issue.
+
+# 📄 License :
+
+This project is licensed under the Apache-2.0 license. See the LICENSE file for more details.
+
+# ✨ Credits :
+
+Created by Shashwat Mishra
+
+

@@ -1008,11 +1008,11 @@ def main():
     </style>
 """, unsafe_allow_html=True)
 
-# Creator link at the top of the sidebar
-st.markdown(
-    '<a href="https://www.linkedin.com/in/sm980/" class="creator-link">Created by SHASHWAT MISHRA</a>',
-    unsafe_allow_html=True
-)
+    # Creator link at the top of the sidebar
+    st.markdown(
+        '<a href="https://www.linkedin.com/in/sm980/" class="creator-link">Created by SHASHWAT MISHRA</a>',
+        unsafe_allow_html=True
+    )
 
     # Home Page
    

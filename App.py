@@ -968,6 +968,52 @@ def main():
     options = ["Home", "About Developer", "Document Features", "Image Features", "Video Features"]
     choice = st.sidebar.radio("Go to", options)
 
+    st.markdown(""" 
+    <style>
+        body {
+            background: linear-gradient(135deg, rgba(255,0,0,0.7), rgba(0,0,255,0.7));
+            transition: background-color 0.5s ease;
+        }
+        .stButton > button:hover {
+            background-color: rgba(255, 165, 0, 0.8);
+            color: white;
+        }
+        .stButton > button {
+            background-color: rgba(0, 255, 0, 0.7);
+            color: black;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .stButton > button:active {
+            transform: scale(0.95);
+        }
+        .creator-link {
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;  
+            text-align: center;  
+            margin-top: 10px;   
+        }
+        .creator-link:hover {
+            background-color: white;  
+            color: red;              
+            padding: 5px;           
+            border-radius: 5px;     
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+# Creator link at the top of the sidebar
+st.markdown(
+    '<a href="https://www.linkedin.com/in/sm980/" class="creator-link">Created by SHASHWAT MISHRA</a>',
+    unsafe_allow_html=True
+)
+
     # Home Page
    
     if choice == "Home":
